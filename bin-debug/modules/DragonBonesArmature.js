@@ -6,21 +6,19 @@ var modules;
     var DragonBonesArmature = (function () {
         function DragonBonesArmature(displayContainer) {
             //获取并持有骨骼动画信息、纹理信息和纹理集图片资源
-            /* var dragonbonesData = RES.getRes("unicorn");
-             var textureData = RES.getRes("unicorn_json");
-             var texture = RES.getRes("unicorn_png");
-             */
-            var dragonbonesData = RES.getRes("fireLord");
-            var textureData = RES.getRes("fireLord_json");
-            var texture = RES.getRes("fireLord_png");
+            //注意有5个名称不能写错，还要注意大小写
+            var dragonbonesData = RES.getRes("fireLord"); //①骨骼动作文件名称
+            var textureData = RES.getRes("fireLord_json"); //②纹理集信息文件名称
+            var texture = RES.getRes("fireLord_png"); //③纹理集图片文件名称
             //创建龙骨动画工厂对象
             var dragonbonesFactory = new dragonBones.EgretFactory();
             //解析骨骼动画信息, 并添加到龙骨动画工厂的数据列表
             dragonbonesFactory.addDragonBonesData(dragonBones.DataParser.parseDragonBonesData(dragonbonesData));
             //把骨骼动画所需要的纹理集资源添加到工厂纹理集列表中
             dragonbonesFactory.addTextureAtlas(new dragonBones.EgretTextureAtlas(texture, textureData));
-            //创建一个可视的骨架对象(注意：是骨“架”，不是骨“骼”，骨骼是构成骨架的基本元素)，
-            var armature = dragonbonesFactory.buildArmature("armatureName");
+            //创建一个可视的骨架对象(注意：是骨“架”，不是骨“骼”，骨骼是构成骨架的基本元素)
+            //一般情况下出现报错 'display' of null 是因为骨架名称有误
+            var armature = dragonbonesFactory.buildArmature("armatureName"); //④骨架名称(这个最容易被忽略)
             //把骨架对象的可视对象添加到舞台
             displayContainer.addChild(armature.display);
             //动画坐标位置和图像大小设置
@@ -34,10 +32,11 @@ var modules;
             dragonBones.WorldClock.clock.add(armature);
             //选择骨架的所要播放的动画名称
             armature.animation.timeScale = 1; //设置时间缩放比例，越大越快
-            var anms = armature.animation.gotoAndPlay("hit");
+            //一般情况下出现类似 'setCurrentTime' of null 报错是因为关键帧标签名有误
+            var anms = armature.animation.gotoAndPlay("run"); //⑤动画关键帧标签名称
             anms.setPlayTimes(0); //设置循环次数，0为无限循环
             anms.setCurrentTime(0); //设置当前时间播放头，单位：秒(龙骨工具用“秒”而不用“帧”来控制播放头的位置?)
-            anms.setTimeScale(0.5); //设置动作速度比例，越大越快
+            anms.setTimeScale(1); //设置动作速度比例，越大越快
             //dragonBones.AnimationState是一个装饰者模式的结构，在被设置的同时一直持有并返回自身的引用
             //所以最简单的设置方法： armature.animation.gotoAndPlay("射击").setPlayTimes(0).setCurrentTime(1).setTimeScale(1);
             //trace(anms.totalTime)//动画时间总长，单位：秒

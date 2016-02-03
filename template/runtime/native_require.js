@@ -11,7 +11,7 @@ var game_file_list = [
 	"bin-debug/com/egretTopTools/DragonBonesInfoTree.js",
 	"bin-debug/com/egretTopTools/trace.js",
 	"bin-debug/GameApplication.js",
-	"bin-debug/modules/DragonBonesArmature.js",
+	"bin-debug/modules/DragonbonesArmature.js",
 	"bin-debug/modules/DragonBonesCopyAnimations.js",
 	"bin-debug/modules/DragonBonesFastArmature.js",
 	//----auto game_file_list end----

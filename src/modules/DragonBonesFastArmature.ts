@@ -8,10 +8,10 @@ module modules
         constructor(displayContainer:egret.DisplayObjectContainer)
         {
             //获取并持有骨骼动画信息、纹理信息和纹理集图片资源
-
-            var dragonbonesData = RES.getRes("unicorn");
-            var textureData = RES.getRes("unicorn_json");
-            var texture = RES.getRes("unicorn_png");
+            //注意有5个名称不能写错，还要注意大小写
+            var dragonbonesData = RES.getRes("unicorn");//①骨骼动作文件名称
+            var textureData = RES.getRes("unicorn_json");//②纹理集信息文件名称
+            var texture = RES.getRes("unicorn_png");//③纹理集图片文件名称
 
             //创建龙骨动画工厂对象
             var dragonbonesFactory:dragonBones.EgretFactory = new dragonBones.EgretFactory();
@@ -20,8 +20,11 @@ module modules
             dragonbonesFactory.addDragonBonesData(dragonBones.DataParser.parseDragonBonesData(dragonbonesData));
             //把骨骼动画所需要的纹理集资源添加到工厂纹理集列表中
             dragonbonesFactory.addTextureAtlas(new dragonBones.EgretTextureAtlas(texture, textureData));
-            //创建一个可视的骨架对象(注意：是骨“架”，不是骨“骼”，骨骼是构成骨架的基本元素)，
-            var armature:dragonBones.FastArmature = dragonbonesFactory.buildFastArmature("armatureName"); //构建FastArmature
+
+            //创建一个可视的骨架FastArmature对象(注意：是骨“架”，不是骨“骼”，骨骼是构成骨架的基本元素)
+            //一般情况下出现报错 'display' of null 是因为骨架名称有误
+            var armature:dragonBones.FastArmature = dragonbonesFactory.buildFastArmature("armatureName"); //④骨架名称(这个最容易被忽略)
+
 
             armature.enableAnimationCache(30, null, true);  //开启数据缓存，30代表采样帧频，推荐设置为12~30，达到性能和动画流畅度的最佳平衡点。;第二个参数是缓存动画列表，为null时所有动画均生成缓存，第三个参数是是否循环，仅对DragonBones 3.0以下的旧数据类型有效
 
@@ -41,7 +44,9 @@ module modules
             dragonBones.WorldClock.clock.add(armature);
             //选择骨架的所要播放的动画名称
             armature.animation.timeScale = 0.2;//设置时间缩放比例，越大越快
-            var anmfs:dragonBones.FastAnimationState = armature.animation.gotoAndPlay("射击");
+
+            //一般情况下出现类似 'setCurrentTime' of null 报错是因为关键帧标签名有误
+            var anmfs:dragonBones.FastAnimationState = armature.animation.gotoAndPlay("射击");//⑤动画关键帧标签名称
 
             //anmfs.setCurrentTime(2);//设置当前时间播放头，单位：秒(龙骨工具不用“帧”来控制播放头的位置?)
 

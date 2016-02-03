@@ -37,10 +37,13 @@ class DragonBonesInfoTree
     {
         var urlLoaderData:any = JSON.parse(event.target.data);
 
+        var armatures = urlLoaderData["armature"];
+
+        trace("数据版本:",urlLoaderData["version"]);
+
         trace("帧频:", urlLoaderData["frameRate"], "fps");
         trace("文件名:", urlLoaderData["name"]);
 
-        var armatures = urlLoaderData["armature"];
 
         for (var index = 0; index < armatures.length; index++)
         {
@@ -90,27 +93,66 @@ class DragonBonesInfoTree
                         }
                     }
 
-                    var slotArray = armatureInfo["slot"].concat();
+
 
                     if (nodeInfo == "bone")
                     {
                         var bone = armatureInfo["bone"];
+                        var slotArray;
+                        if (armatureInfo["slot"])
+                        {
+                            slotArray = armatureInfo["slot"].concat();
+                        }
+
+                        if(Number(urlLoaderData["version"]) < 4)//4.0以下版本的数据插槽的遍历方式
+                        {
+                            if(armatures[index].skin && armatures[index].skin.length)
+                            {
+                                slotArray = armatures[index].skin[0].slot.concat();
+
+                                if(armatures[index].skin.length > 1)
+                                {
+                                    for(var skinIndex = 1;skinIndex < armatures[index].skin.length;skinIndex++)
+                                    {
+                                        if(armatures[index].skin[skinIndex].slot)
+                                        {
+                                            slotArray.concat(armatures[index].skin[skinIndex].slot);
+                                        }
+                                    }
+                                }
+                            }
+
+                        }
 
                         trace("\n        urlLoaderData.armature[" + index + "] 节点的骨骼部件名称列表(长度为 " + bone.length + "):")
                         for (var boneIndex in bone)
                         {
                             var slotName = "undefined";
+
                             for (var slotIndex in slotArray)
                             {
                                 var slot = slotArray[slotIndex];
-                                if (slot.parent && slot.parent == bone[boneIndex]["name"])
+                                if(Number(urlLoaderData["version"]) >= 4)
                                 {
-                                    slotName = slot.name;
-                                    slotArray.splice(slotIndex, 1);
-                                    slotIndex--;
-                                    break;
+                                    if (slot.parent && slot.parent == bone[boneIndex]["name"])
+                                    {
+                                        slotName = slot.name;
+
+                                        break;
+                                    }
+                                }
+                                else
+                                {
+                                    if(slot.name == bone[boneIndex]["name"])
+                                    {
+                                        slotName = slot.display[0].name;
+                                        break;
+                                    }
                                 }
                             }
+
+
+
                             if (DragonBonesInfoTree.detailed)
                             {
                                 if (slotName == "undefined")
@@ -119,7 +161,14 @@ class DragonBonesInfoTree
                                 }
                                 else
                                 {
-                                    trace("                                骨骼名称(bone[" + boneIndex + "].name):" + bone[boneIndex]["name"], "  绑定插槽名称(slot[" + armatureInfo["slot"].indexOf(slot) + "].name):" + slotName);
+                                    if(Number(urlLoaderData["version"]) >= 4)
+                                    {
+                                        trace("                                骨骼名称(bone[" + boneIndex + "].name):" + bone[boneIndex]["name"], "  绑定插槽名称(slot[" + slotIndex + "].name):" + slotName);
+                                    }
+                                    else
+                                    {
+                                        trace("                                骨骼名称(bone[" + boneIndex + "].name):" + bone[boneIndex]["name"], "  绑定插槽名称(skin[0].slot[" + slotIndex +"].display[0].name):" + slotName);
+                                    }
                                 }
                             }
                             else
