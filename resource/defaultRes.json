@@ -1,0 +1,60 @@
+{
+  "resources": [
+    {
+      "name": "description",
+      "type": "json",
+      "url": "config/description.json"
+    },
+    {
+      "name": "robotGame",
+      "type": "json",
+      "url": "assets/bones/robot/Robot.json"
+    },
+    {
+      "name": "robotGame_json",
+      "type": "json",
+      "url": "assets/bones/robot/texture.json"
+    },
+    {
+      "name": "robotGame_png",
+      "type": "image",
+      "url": "assets/bones/robot/texture.png"
+    },
+    {
+      "name": "unicorn",
+      "type": "json",
+      "url": "assets/bones/unicorn/unicorn.json"
+    },
+    {
+      "name": "unicorn_json",
+      "type": "json",
+      "url": "assets/bones/unicorn/texture.json"
+    },
+    {
+      "name": "unicorn_png",
+      "type": "image",
+      "url": "assets/bones/unicorn/texture.png"
+    },
+    {
+      "name": "fireLord",
+      "type": "json",
+      "url": "assets/bones/firelord/FireLord.json"
+    },
+    {
+      "name": "fireLord_json",
+      "type": "json",
+      "url": "assets/bones/firelord/texture.json"
+    },
+    {
+      "name": "fireLord_png",
+      "type": "image",
+      "url": "assets/bones/firelord/texture.png"
+    }
+  ],
+  "groups": [
+    {
+      "keys": "robotGame,robotGame_json,robotGame_png,unicorn,unicorn_json,unicorn_png,fireLord,fireLord_json,fireLord_png",
+      "name": "bones"
+    }
+  ]
+}

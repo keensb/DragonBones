@@ -1,0 +1,4795 @@
+{
+  "frameRate": 24,
+  "isGlobal": 0,
+  "armature": [
+    {
+      "bone": [
+        {
+          "name": "root",
+          "transform": {}
+        },
+        {
+          "transform": {
+            "y": 17.15,
+            "skX": -85.767,
+            "skY": -85.767,
+            "x": -1.25
+          },
+          "length": 39,
+          "name": "身体",
+          "parent": "root"
+        },
+        {
+          "transform": {
+            "y": 31.1,
+            "skX": 101.3533,
+            "skY": 101.3533,
+            "x": 5.7325
+          },
+          "length": 25,
+          "name": "裤裆",
+          "parent": "root"
+        },
+        {
+          "transform": {
+            "y": 43.6423,
+            "skX": 63.3979,
+            "skY": 63.3979,
+            "x": 23.2
+          },
+          "length": 34,
+          "name": "左脚-",
+          "parent": "root"
+        },
+        {
+          "transform": {
+            "y": 125.569,
+            "skX": 154.2352,
+            "skY": 154.2352,
+            "x": -9.3994
+          },
+          "length": 59,
+          "name": "右脚",
+          "parent": "root"
+        },
+        {
+          "transform": {
+            "y": 47.1189,
+            "skX": 95.8489,
+            "skY": 95.8489,
+            "x": -15.05
+          },
+          "length": 30,
+          "name": "右大腿",
+          "parent": "root"
+        },
+        {
+          "transform": {
+            "y": 128.7704,
+            "skX": 65.1153,
+            "skY": 65.1153,
+            "x": 75.3
+          },
+          "length": 48,
+          "name": "左脚",
+          "parent": "root"
+        },
+        {
+          "transform": {
+            "y": 15.9775,
+            "skX": 9.4331,
+            "skY": 9.4331,
+            "x": 7.5691
+          },
+          "length": 32,
+          "name": "左胸",
+          "parent": "身体"
+        },
+        {
+          "transform": {
+            "y": -23.677,
+            "skX": -75.1077,
+            "skY": -75.1077,
+            "x": 26.1236
+          },
+          "length": 41,
+          "name": "右肩",
+          "parent": "身体"
+        },
+        {
+          "transform": {
+            "y": -31.3176,
+            "skX": -28.1814,
+            "skY": -28.1814,
+            "x": -12.5099
+          },
+          "length": 19,
+          "name": "裙摆b",
+          "parent": "裤裆"
+        },
+        {
+          "transform": {
+            "y": -40.4334,
+            "skX": -30.7756,
+            "skY": -30.7756,
+            "x": -11.5354
+          },
+          "length": 35,
+          "name": "裙摆",
+          "parent": "裤裆"
+        },
+        {
+          "transform": {
+            "y": -8.7572,
+            "skX": -24.2699,
+            "skY": -24.2699,
+            "x": -8.0346
+          },
+          "length": 22,
+          "name": "左裤裆1",
+          "parent": "裤裆"
+        },
+        {
+          "transform": {
+            "y": 3.913,
+            "skX": -5.8489,
+            "skY": -5.8489,
+            "x": 29.3996
+          },
+          "length": 49,
+          "name": "右小腿",
+          "parent": "右大腿"
+        },
+        {
+          "transform": {
+            "y": 57.7755,
+            "skX": 6.7542,
+            "skY": 6.7542,
+            "x": 60.2103
+          },
+          "length": 38,
+          "name": "左背剑",
+          "parent": "身体"
+        },
+        {
+          "transform": {
+            "y": 26.3261,
+            "skX": -85.5348,
+            "skY": -85.5348,
+            "x": 33.1336
+          },
+          "length": 18,
+          "name": "左手",
+          "parent": "身体"
+        },
+        {
+          "transform": {
+            "y": 2.3836,
+            "skX": -4.2164,
+            "skY": -4.2164,
+            "x": 52.4691
+          },
+          "length": 60,
+          "name": "头",
+          "parent": "身体"
+        },
+        {
+          "transform": {
+            "y": 35.7071,
+            "skX": 1.8632,
+            "skY": 1.8632,
+            "x": -1.4016
+          },
+          "length": 16,
+          "name": "右裤裆",
+          "parent": "裤裆"
+        },
+        {
+          "transform": {
+            "y": -3.4414,
+            "skX": -4.8756,
+            "skY": -4.8756,
+            "x": 32.3207
+          },
+          "length": 59,
+          "name": "左小腿",
+          "parent": "左脚-"
+        },
+        {
+          "transform": {
+            "y": -23.4374,
+            "skX": -14.0591,
+            "skY": -14.0591,
+            "x": 29.7512
+          },
+          "length": 40,
+          "name": "右背剑",
+          "parent": "身体"
+        },
+        {
+          "transform": {
+            "y": -10.3616,
+            "skX": -112.5591,
+            "skY": -112.5591,
+            "x": 2.7346
+          },
+          "length": 21,
+          "name": "右上臂",
+          "parent": "右肩"
+        },
+        {
+          "transform": {
+            "y": 0.1863,
+            "skX": 152.8847,
+            "skY": 152.8847,
+            "x": -4.5239
+          },
+          "length": 49,
+          "name": "左肩",
+          "parent": "左手"
+        },
+        {
+          "transform": {
+            "y": 1.5018,
+            "skX": 47.5295,
+            "skY": 47.5295,
+            "x": 20.676
+          },
+          "length": 33,
+          "name": "右下臂",
+          "parent": "右上臂"
+        },
+        {
+          "transform": {
+            "y": 11.0492,
+            "skX": -1.526,
+            "skY": -1.526,
+            "x": 9.4429
+          },
+          "length": 36,
+          "name": "左肩 前1",
+          "parent": "左肩"
+        },
+        {
+          "transform": {
+            "y": 15.9387,
+            "skX": 77.3899,
+            "skY": 77.3899,
+            "x": 19.3624
+          },
+          "length": 28,
+          "name": "左上臂",
+          "parent": "左肩"
+        },
+        {
+          "transform": {
+            "y": 6.6448,
+            "skX": 39.5578,
+            "skY": 39.5578,
+            "x": 27.9136
+          },
+          "length": 16,
+          "name": "左下臂",
+          "parent": "左上臂"
+        },
+        {
+          "transform": {
+            "y": 2.4899,
+            "skX": 13.6016,
+            "skY": 13.6016,
+            "x": 41.0416
+          },
+          "length": 51,
+          "name": "枪",
+          "parent": "右下臂"
+        },
+        {
+          "transform": {
+            "y": -1.3892,
+            "skX": -26.3866,
+            "skY": -26.3866,
+            "x": 27.397
+          },
+          "length": 15,
+          "name": "左手1",
+          "parent": "左下臂"
+        }
+      ],
+      "skin": [
+        {
+          "name": "",
+          "slot": [
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "name": "图层_30",
+                  "transform": {
+                    "y": 3.4022,
+                    "skX": 160.7003,
+                    "skY": 160.7003,
+                    "x": 15.5486
+                  }
+                }
+              ],
+              "name": "右肩"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "name": "图层_9",
+                  "transform": {
+                    "y": 5.5404,
+                    "skX": -72.0529,
+                    "skY": -72.0529,
+                    "x": 5.3533
+                  }
+                }
+              ],
+              "name": "左手"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "name": "图层_2",
+                  "transform": {
+                    "skX": 90,
+                    "skY": 90,
+                    "x": 59
+                  }
+                }
+              ],
+              "name": "头"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "name": "图层_18",
+                  "transform": {
+                    "y": 1.0079,
+                    "skX": -95.8489,
+                    "skY": -95.8489,
+                    "x": 9.2966
+                  }
+                }
+              ],
+              "name": "右大腿"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "name": "图层_34",
+                  "transform": {
+                    "y": 18.046,
+                    "skX": -147.8717,
+                    "skY": -147.8717,
+                    "x": 76.027
+                  }
+                }
+              ],
+              "name": "枪"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "name": "图层_15",
+                  "transform": {
+                    "y": 1.1998,
+                    "skX": -58.5223,
+                    "skY": -58.5223,
+                    "x": 29.2497
+                  }
+                }
+              ],
+              "name": "左小腿"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "name": "图层_33",
+                  "transform": {
+                    "y": 4.5046,
+                    "skX": -134.2702,
+                    "skY": -134.2702,
+                    "x": 13.8878
+                  }
+                }
+              ],
+              "name": "右下臂"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "name": "图层_25",
+                  "transform": {
+                    "y": 0.242,
+                    "skX": -70.5777,
+                    "skY": -70.5777,
+                    "x": 17.1452
+                  }
+                }
+              ],
+              "name": "裙摆"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "name": "图层_36",
+                  "transform": {
+                    "y": 1.053,
+                    "skX": 99.8261,
+                    "skY": 99.8261,
+                    "x": 19.8617
+                  }
+                }
+              ],
+              "name": "右背剑"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "name": "图层_32",
+                  "transform": {
+                    "y": 1.7534,
+                    "skX": -73.1719,
+                    "skY": -73.1719,
+                    "x": 13.0513
+                  }
+                }
+              ],
+              "name": "裙摆b"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "name": "图层_20",
+                  "transform": {
+                    "y": -1.45,
+                    "skX": -90,
+                    "skY": -90,
+                    "x": 14.275
+                  }
+                }
+              ],
+              "name": "右小腿"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "name": "图层_8",
+                  "transform": {
+                    "y": -1.2507,
+                    "skX": -58.9729,
+                    "skY": -58.9729,
+                    "x": 17.5944
+                  }
+                }
+              ],
+              "name": "左上臂"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "name": "图层_3",
+                  "transform": {
+                    "y": 18.0601,
+                    "skX": 85.7006,
+                    "skY": 85.7006,
+                    "x": 16.5505
+                  }
+                }
+              ],
+              "name": "身体"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "name": "图层_31",
+                  "transform": {
+                    "y": 2.6887,
+                    "skX": -86.7407,
+                    "skY": -86.7407,
+                    "x": 10.2706
+                  }
+                }
+              ],
+              "name": "右上臂"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "name": "图层_17",
+                  "transform": {
+                    "y": 4.1184,
+                    "skX": -64.529,
+                    "skY": -64.529,
+                    "x": 17.2493
+                  }
+                }
+              ],
+              "name": "左脚"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "name": "图层_6",
+                  "transform": {
+                    "y": 6.4425,
+                    "skX": 18.417,
+                    "skY": 18.417,
+                    "x": 27.419
+                  }
+                }
+              ],
+              "name": "左肩 前"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "name": "图层_4",
+                  "transform": {
+                    "y": -3.0298,
+                    "skX": 76.2842,
+                    "skY": 76.2842,
+                    "x": 15.5212
+                  }
+                }
+              ],
+              "name": "左胸"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "name": "图层_10",
+                  "transform": {
+                    "y": 1.0999,
+                    "skX": -77.1846,
+                    "skY": -77.1846,
+                    "x": 11.441
+                  }
+                }
+              ],
+              "name": "左裤裆"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "name": "图层_12",
+                  "transform": {
+                    "y": -6.771,
+                    "skX": -103.1397,
+                    "skY": -103.1397,
+                    "x": 11.4095
+                  }
+                }
+              ],
+              "name": "右裤裆"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "name": "图层_7",
+                  "transform": {
+                    "y": -11.6843,
+                    "skX": -98.5308,
+                    "skY": -98.5308,
+                    "x": -2.6627
+                  }
+                }
+              ],
+              "name": "左下臂"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "name": "图层_22",
+                  "transform": {
+                    "y": 1.4639,
+                    "skX": -154.2352,
+                    "skY": -154.2352,
+                    "x": 26.9976
+                  }
+                }
+              ],
+              "name": "右脚"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "name": "图层_5",
+                  "transform": {
+                    "y": -4.7253,
+                    "skX": 19.943,
+                    "skY": 19.943,
+                    "x": 19.3735
+                  }
+                }
+              ],
+              "name": "左肩 后"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "name": "图层_13",
+                  "transform": {
+                    "y": -3.0784,
+                    "skX": -63.3979,
+                    "skY": -63.3979,
+                    "x": 17.9714
+                  }
+                }
+              ],
+              "name": "左大腿"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "name": "图层_35",
+                  "transform": {
+                    "y": 0.5103,
+                    "skX": 79.0128,
+                    "skY": 79.0128,
+                    "x": 17.9258
+                  }
+                }
+              ],
+              "name": "左背剑"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "name": "图层_11",
+                  "transform": {
+                    "y": 0.6007,
+                    "skX": -101.3533,
+                    "skY": -101.3533,
+                    "x": 12.2581
+                  }
+                }
+              ],
+              "name": "裤裆"
+            }
+          ]
+        }
+      ],
+      "name": "armatureName",
+      "slot": [
+        {
+          "name": "右背剑",
+          "parent": "右背剑"
+        },
+        {
+          "z": 1,
+          "name": "左背剑",
+          "parent": "左背剑"
+        },
+        {
+          "z": 2,
+          "name": "右下臂",
+          "parent": "右下臂"
+        },
+        {
+          "z": 3,
+          "name": "右上臂",
+          "parent": "右上臂"
+        },
+        {
+          "z": 4,
+          "name": "右肩",
+          "parent": "右肩"
+        },
+        {
+          "z": 5,
+          "name": "枪",
+          "parent": "枪"
+        },
+        {
+          "z": 6,
+          "name": "身体",
+          "parent": "身体"
+        },
+        {
+          "z": 7,
+          "name": "右脚",
+          "parent": "右脚"
+        },
+        {
+          "z": 8,
+          "name": "右大腿",
+          "parent": "右大腿"
+        },
+        {
+          "z": 9,
+          "name": "右小腿",
+          "parent": "右小腿"
+        },
+        {
+          "z": 10,
+          "name": "右裤裆",
+          "parent": "右裤裆"
+        },
+        {
+          "z": 11,
+          "name": "头",
+          "parent": "头"
+        },
+        {
+          "z": 12,
+          "name": "左胸",
+          "parent": "左胸"
+        },
+        {
+          "z": 13,
+          "name": "裤裆",
+          "parent": "裤裆"
+        },
+        {
+          "z": 14,
+          "name": "裙摆",
+          "parent": "裙摆"
+        },
+        {
+          "z": 15,
+          "name": "左脚",
+          "parent": "左脚"
+        },
+        {
+          "z": 16,
+          "name": "左大腿",
+          "parent": "左脚-"
+        },
+        {
+          "z": 17,
+          "name": "左小腿",
+          "parent": "左小腿"
+        },
+        {
+          "z": 18,
+          "name": "裙摆b",
+          "parent": "裙摆b"
+        },
+        {
+          "z": 19,
+          "name": "左裤裆",
+          "parent": "左裤裆1"
+        },
+        {
+          "z": 20,
+          "name": "左肩 后",
+          "parent": "左肩 前1"
+        },
+        {
+          "z": 21,
+          "name": "左上臂",
+          "parent": "左上臂"
+        },
+        {
+          "z": 22,
+          "name": "左肩 前",
+          "parent": "左肩"
+        },
+        {
+          "z": 23,
+          "name": "左下臂",
+          "parent": "左下臂"
+        },
+        {
+          "z": 24,
+          "name": "左手",
+          "parent": "左手1"
+        }
+      ],
+      "animation": [
+        {
+          "playTimes": 0,
+          "duration": 30,
+          "frame": [],
+          "bone": [
+            {
+              "frame": [
+                {
+                  "duration": 30,
+                  "curve": [
+                    1,
+                    2,
+                    0,
+                    -1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "root"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 16,
+                  "curve": [
+                    0.5,
+                    0,
+                    1,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "scX": 0.98,
+                    "y": 1.0283,
+                    "scY": 0.98,
+                    "skX": -1.6592,
+                    "skY": -1.6592,
+                    "x": -1.9192
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "头"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 30,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "左手"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 16,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "y": 1.5489,
+                    "skX": -4.6245,
+                    "skY": -4.6245,
+                    "x": 0.237
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "左肩"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 30,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "左肩 前1"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 16,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "y": 2.0757,
+                    "skX": 0.899,
+                    "skY": 0.899,
+                    "x": 1.2317
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "左上臂"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 16,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "scX": 1.0193,
+                    "y": 2.4404,
+                    "scY": 1.0193,
+                    "skX": -5.7809,
+                    "skY": -5.7809,
+                    "x": 3.0453
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "左下臂"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 16,
+                  "transform": {
+                    "y": 0.2424,
+                    "skX": 23.7117,
+                    "skY": 23.7117,
+                    "x": -1.6157
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "scX": 1.0968,
+                    "y": -0.1498,
+                    "scY": 1.0968,
+                    "skX": 37.6881,
+                    "skY": 37.6881,
+                    "x": -2.8799
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {
+                    "y": 0.2424,
+                    "skX": 23.7117,
+                    "skY": 23.7117,
+                    "x": -1.6157
+                  },
+                  "tweenEasing": null
+                }
+              ],
+              "name": "左手1"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 16,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "scX": 1.04,
+                    "y": -1.6338,
+                    "scY": 1.04
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "身体"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 30,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "左胸"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 16,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "y": 0.5255
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "裤裆"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 16,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "scX": 1.0296,
+                    "y": -0.0965,
+                    "scY": 1.0296,
+                    "skX": -2.2969,
+                    "skY": -2.2969,
+                    "x": 0.4806
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "左裤裆1"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 16,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "skX": -6.4915,
+                    "skY": -6.4915
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "裙摆b"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 16,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "skX": 4.8066,
+                    "skY": 4.8066
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "右裤裆"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 30,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "右背剑"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 30,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "左背剑"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 16,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "scX": 1.02
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "左脚-"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 16,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "scX": 1.01,
+                    "y": 0.3415,
+                    "x": -1.0064
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "左小腿"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 30,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "左脚"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 16,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "scX": 1.02,
+                    "y": 0.765
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "右大腿"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 16,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "scX": 1.0096,
+                    "y": 0.1422,
+                    "x": -1.3354
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "右小腿"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 30,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "右脚"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 16,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "scX": 0.98,
+                    "y": -0.1107,
+                    "scY": 0.98,
+                    "skX": 3.9852,
+                    "skY": 3.9852,
+                    "x": 1.4959
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "右肩"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 16,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "skX": -7.2179,
+                    "skY": -7.2179
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "右上臂"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 16,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "skX": 1.8731,
+                    "skY": 1.8731
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "右下臂"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 16,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "scX": 0.98,
+                    "scY": 0.98,
+                    "skX": 2.2231,
+                    "skY": 2.2231
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "枪"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 30,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "裙摆"
+            }
+          ],
+          "name": "呼吸",
+          "slot": [
+            {
+              "frame": [
+                {
+                  "duration": 30,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "右背剑"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 30,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "左背剑"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 30,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "右下臂"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 30,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "右上臂"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 30,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "右肩"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 30,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "枪"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 30,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "左胸"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 30,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "身体"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 30,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "右脚"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 30,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "右大腿"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 30,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "右小腿"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 30,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "右裤裆"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 30,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "裤裆"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 30,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "裙摆"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 30,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "左脚"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 30,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "左大腿"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 30,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "左小腿"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 30,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "头"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 30,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "裙摆b"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 30,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "左裤裆"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 30,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "左肩 后"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 30,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "左上臂"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 30,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "左肩 前"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 30,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "左下臂"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 30,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "左手"
+            }
+          ]
+        },
+        {
+          "playTimes": 0,
+          "duration": 74,
+          "frame": [],
+          "bone": [
+            {
+              "frame": [
+                {
+                  "duration": 10,
+                  "curve": [
+                    0,
+                    0.914,
+                    0.72,
+                    0.985
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 14,
+                  "curve": [
+                    0,
+                    0.563,
+                    1,
+                    1
+                  ],
+                  "transform": {
+                    "scX": 1.02,
+                    "y": -4.282,
+                    "scY": 1.02,
+                    "skX": -15.8298,
+                    "skY": -15.8298,
+                    "x": -157.5103
+                  }
+                },
+                {
+                  "duration": 16,
+                  "curve": [
+                    0,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "scX": 0.97,
+                    "y": -4.1973,
+                    "scY": 0.97,
+                    "skX": -15.5165,
+                    "skY": -15.5165,
+                    "x": -146.012
+                  }
+                },
+                {
+                  "duration": 6,
+                  "curve": [
+                    0.5,
+                    0,
+                    1,
+                    1
+                  ],
+                  "transform": {
+                    "y": -4.282,
+                    "skX": -15.8298,
+                    "skY": -15.8298,
+                    "x": -157.5103
+                  }
+                },
+                {
+                  "duration": 7,
+                  "curve": [
+                    0,
+                    0.985,
+                    0.632,
+                    1
+                  ],
+                  "transform": {
+                    "y": -4.282,
+                    "skX": -10.376,
+                    "skY": -10.376,
+                    "x": -205.0405
+                  }
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "y": -4.282,
+                    "skX": 5.9481,
+                    "skY": 5.9481,
+                    "x": -160.7822
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "scX": 0.98,
+                    "y": -3.2115,
+                    "scY": 0.98,
+                    "skX": 5.9481,
+                    "skY": 5.9481,
+                    "x": -153.2106
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "curve": [
+                    0,
+                    1.708,
+                    1,
+                    1.214
+                  ],
+                  "transform": {
+                    "scX": 0.96,
+                    "y": -3.2115,
+                    "skX": 17.458,
+                    "skY": 17.458,
+                    "x": -124.0754
+                  }
+                },
+                {
+                  "duration": 6,
+                  "curve": [
+                    0.5,
+                    0,
+                    1,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 18.0436,
+                    "skY": 18.0436,
+                    "x": 47.113
+                  }
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "root"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 10,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "scX": 1.02,
+                    "y": -3.159,
+                    "scY": 1.02,
+                    "skX": -1.7677,
+                    "skY": -1.7677,
+                    "x": -0.3523
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 16,
+                  "transform": {
+                    "scX": 1.02,
+                    "y": -3.159,
+                    "scY": 1.02,
+                    "skX": 0.2055,
+                    "skY": 0.2055,
+                    "x": -0.3523
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "scX": 1.02,
+                    "y": -3.159,
+                    "scY": 1.02,
+                    "skX": -1.7677,
+                    "skY": -1.7677,
+                    "x": -0.3523
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "scX": 1.02,
+                    "y": -3.159,
+                    "scY": 1.02,
+                    "skX": -1.7677,
+                    "skY": -1.7677,
+                    "x": -0.3523
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "scX": 1.02,
+                    "y": -3.159,
+                    "scY": 1.02,
+                    "skX": -1.7677,
+                    "skY": -1.7677,
+                    "x": -0.3523
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "scX": 1.02,
+                    "y": -3.159,
+                    "scY": 1.02,
+                    "skX": -1.7677,
+                    "skY": -1.7677,
+                    "x": -0.3523
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 13,
+                  "transform": {
+                    "scX": 1.02,
+                    "y": -3.159,
+                    "scY": 1.02,
+                    "skX": -1.7677,
+                    "skY": -1.7677,
+                    "x": -0.3523
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "身体"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 10,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "y": -2.7922,
+                    "skX": -10.1154,
+                    "skY": -10.1154
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 16,
+                  "transform": {
+                    "y": -1.7623,
+                    "skX": -4.4389,
+                    "skY": -4.4389,
+                    "x": -0.292
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "y": -2.7922,
+                    "skX": -10.1154,
+                    "skY": -10.1154
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "y": -2.7922,
+                    "skX": -10.1154,
+                    "skY": -10.1154
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "y": -0.6627,
+                    "skX": -10.1154,
+                    "skY": -10.1154,
+                    "x": 0.2219
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "y": -0.6627,
+                    "skX": -10.1154,
+                    "skY": -10.1154,
+                    "x": 0.2219
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "y": -0.6627,
+                    "skX": -10.1154,
+                    "skY": -10.1154,
+                    "x": 0.2219
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "scX": 1.05,
+                    "y": -0.5964,
+                    "skX": -6.0693,
+                    "skY": -6.0693,
+                    "x": 0.3515
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "裤裆"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 10,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "scX": 1.08,
+                    "y": -7.2496,
+                    "scY": 1.02,
+                    "skX": 0.2145,
+                    "skY": 0.2145,
+                    "x": 11.1585
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 16,
+                  "transform": {
+                    "scX": 1.08,
+                    "y": -6.5342,
+                    "scY": 1.02,
+                    "skX": -1.3687,
+                    "skY": -1.3687,
+                    "x": 13.6817
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "scX": 1.08,
+                    "y": -7.2496,
+                    "scY": 1.02,
+                    "skX": 0.2145,
+                    "skY": 0.2145,
+                    "x": 11.1585
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "scX": 1.08,
+                    "y": -7.2496,
+                    "scY": 1.02,
+                    "skX": 0.2145,
+                    "skY": 0.2145,
+                    "x": 11.1585
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "scX": 1.2014,
+                    "y": 7.7515,
+                    "scY": 1.1347,
+                    "skX": 39.9356,
+                    "skY": 39.9356,
+                    "x": -2.3083
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "scX": 1.2014,
+                    "y": 7.7515,
+                    "scY": 1.1347,
+                    "skX": 39.9356,
+                    "skY": 39.9356,
+                    "x": -2.3083
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "scX": 1.2014,
+                    "y": 7.6007,
+                    "scY": 1.1347,
+                    "skX": 38.3267,
+                    "skY": 38.3267,
+                    "x": -0.8613
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "scX": 1.024,
+                    "y": -7.0772,
+                    "scY": 1.012,
+                    "skX": 16.7501,
+                    "skY": 16.7501,
+                    "x": 6.0972
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "左脚-"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 10,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "scX": 0.85,
+                    "y": -39.9161,
+                    "scY": 0.85,
+                    "skX": -36.7898,
+                    "skY": -36.7898,
+                    "x": 2.7605
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 16,
+                  "transform": {
+                    "scX": 0.85,
+                    "y": -44.6355,
+                    "scY": 0.85,
+                    "skX": -40.5284,
+                    "skY": -40.5284,
+                    "x": 9.6621
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "scX": 0.85,
+                    "y": -39.9161,
+                    "scY": 0.85,
+                    "skX": -36.7898,
+                    "skY": -36.7898,
+                    "x": 2.7605
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "scX": 0.85,
+                    "y": -39.9161,
+                    "scY": 0.85,
+                    "skX": -36.7898,
+                    "skY": -36.7898,
+                    "x": 2.7605
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "scX": 0.85,
+                    "y": -60.7767,
+                    "scY": 0.85,
+                    "skX": -53.6378,
+                    "skY": -53.6378,
+                    "x": -5.8529
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "scX": 0.85,
+                    "y": -61.2204,
+                    "scY": 0.85,
+                    "skX": -53.6378,
+                    "skY": -53.6378,
+                    "x": -1.594
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "scX": 0.85,
+                    "y": -63.5452,
+                    "scY": 0.85,
+                    "skX": -55.9008,
+                    "skY": -55.9008,
+                    "x": -1.0791
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "scX": 0.94,
+                    "y": -20.7395,
+                    "scY": 0.94,
+                    "skX": 23.6903,
+                    "skY": 23.6903,
+                    "x": -52.949
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "右脚"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 10,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "scX": 0.9,
+                    "y": -3.8312,
+                    "scY": 0.9,
+                    "skX": 64.5414,
+                    "skY": 64.5414,
+                    "x": -12.3278
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 16,
+                  "transform": {
+                    "scX": 0.9,
+                    "y": -3.8312,
+                    "scY": 0.9,
+                    "skX": 64.5414,
+                    "skY": 64.5414,
+                    "x": -12.3278
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "scX": 0.9,
+                    "y": -3.8312,
+                    "scY": 0.9,
+                    "skX": 64.5414,
+                    "skY": 64.5414,
+                    "x": -12.3278
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "scX": 0.9,
+                    "y": -3.8312,
+                    "scY": 0.9,
+                    "skX": 64.5414,
+                    "skY": 64.5414,
+                    "x": -12.3278
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "scX": 0.9,
+                    "y": -2.3891,
+                    "scY": 0.9,
+                    "skX": 87.4431,
+                    "skY": 87.4431,
+                    "x": -26.1694
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "scX": 0.9,
+                    "y": -2.3891,
+                    "scY": 0.9,
+                    "skX": 87.4431,
+                    "skY": 87.4431,
+                    "x": -26.1694
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "scX": 0.9,
+                    "y": -2.3891,
+                    "scY": 0.9,
+                    "skX": 87.4431,
+                    "skY": 87.4431,
+                    "x": -26.1694
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "scX": 0.94,
+                    "y": 1.5051,
+                    "scY": 0.94,
+                    "skX": 38.7248,
+                    "skY": 38.7248,
+                    "x": -13.0253
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "右大腿"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 10,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "scX": 1.08,
+                    "y": 4.7506,
+                    "skX": -6.6617,
+                    "skY": -6.6617,
+                    "x": 17.4897
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 16,
+                  "transform": {
+                    "scX": 1.1339,
+                    "y": 10.4684,
+                    "scY": 1.0499,
+                    "skX": -6.6617,
+                    "skY": -6.6617,
+                    "x": 25.8828
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "scX": 1.08,
+                    "y": 4.7506,
+                    "skX": -6.6617,
+                    "skY": -6.6617,
+                    "x": 17.4897
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "scX": 1.08,
+                    "y": 4.7506,
+                    "skX": -6.6617,
+                    "skY": -6.6617,
+                    "x": 17.4897
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "scX": 1.1716,
+                    "y": 46.7538,
+                    "scY": 1.0848,
+                    "skX": 36.0166,
+                    "skY": 36.0166,
+                    "x": -75.329
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "scX": 1.1716,
+                    "y": 46.1991,
+                    "scY": 1.0848,
+                    "skX": 32.1087,
+                    "skY": 32.1087,
+                    "x": -70.0053
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "scX": 1.1716,
+                    "y": 45.7127,
+                    "scY": 1.0848,
+                    "skX": 28.7429,
+                    "skY": 28.7429,
+                    "x": -65.3365
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "scX": 1.2796,
+                    "y": 27.8747,
+                    "scY": 1.2424,
+                    "skX": 14.9386,
+                    "skY": 14.9386,
+                    "x": -15.849
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "左脚"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 10,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "y": -0.4904,
+                    "skX": -0.0777,
+                    "skY": -0.0777,
+                    "x": -2.1703
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 16,
+                  "transform": {
+                    "y": -0.4904,
+                    "skX": -0.0777,
+                    "skY": -0.0777,
+                    "x": -2.1703
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "y": -0.4904,
+                    "skX": -0.0777,
+                    "skY": -0.0777,
+                    "x": -2.1703
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "y": -0.4904,
+                    "skX": -0.0777,
+                    "skY": -0.0777,
+                    "x": -2.1703
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "y": -0.4904,
+                    "skX": -0.0777,
+                    "skY": -0.0777,
+                    "x": -2.1703
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "y": -0.4904,
+                    "skX": -0.0777,
+                    "skY": -0.0777,
+                    "x": -2.1703
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 13,
+                  "transform": {
+                    "y": -0.4904,
+                    "skX": -0.0777,
+                    "skY": -0.0777,
+                    "x": -2.1703
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "左胸"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 10,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "scX": 0.98,
+                    "y": 9.2848,
+                    "scY": 0.98,
+                    "skX": 55.4713,
+                    "skY": 55.4713,
+                    "x": -2.8144
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 16,
+                  "transform": {
+                    "scX": 0.98,
+                    "y": 9.2848,
+                    "scY": 0.98,
+                    "skX": 60.8918,
+                    "skY": 60.8918,
+                    "x": -2.8144
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "scX": 0.98,
+                    "y": 9.2848,
+                    "scY": 0.98,
+                    "skX": 55.4713,
+                    "skY": 55.4713,
+                    "x": -2.8144
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "scX": 0.98,
+                    "y": 3.1965,
+                    "scY": 0.98,
+                    "skX": 55.4713,
+                    "skY": 55.4713,
+                    "x": -10.0517
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "scX": 0.98,
+                    "y": 3.1965,
+                    "scY": 0.98,
+                    "skX": 55.4713,
+                    "skY": 55.4713,
+                    "x": -10.0517
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "scX": 0.98,
+                    "y": 3.1965,
+                    "scY": 0.98,
+                    "skX": 61.9213,
+                    "skY": 61.9213,
+                    "x": -10.0517
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "scX": 0.98,
+                    "y": 3.1965,
+                    "scY": 0.98,
+                    "skX": 60.2269,
+                    "skY": 60.2269,
+                    "x": -10.0517
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "scX": 0.988,
+                    "y": 8.1067,
+                    "scY": 0.988,
+                    "skX": 33.2828,
+                    "skY": 33.2828,
+                    "x": 1.9686
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "右肩"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 10,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "skX": 9.7423,
+                    "skY": 9.7423
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 16,
+                  "transform": {
+                    "skX": 9.7423,
+                    "skY": 9.7423
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "skX": 9.7423,
+                    "skY": 9.7423
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "skX": 9.7423,
+                    "skY": 9.7423
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "skX": 9.7423,
+                    "skY": 9.7423
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "skX": 18.5231,
+                    "skY": 18.5231
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "skX": 18.5231,
+                    "skY": 18.5231
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "y": -2.4158,
+                    "skX": -3.3254,
+                    "skY": -3.3254,
+                    "x": 10.7687
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "左背剑"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 10,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "skX": -7.8769,
+                    "skY": -7.8769
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 16,
+                  "transform": {
+                    "scX": 1.0249,
+                    "y": -1.112,
+                    "scY": 1.0249,
+                    "skX": -12.4174,
+                    "skY": -12.4174,
+                    "x": -6.3618
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "skX": -7.8769,
+                    "skY": -7.8769
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "skX": -7.8769,
+                    "skY": -7.8769
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "y": -1.3391,
+                    "skX": 12.5385,
+                    "skY": 12.5385,
+                    "x": 10.6209
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "y": -1.3391,
+                    "skX": 12.5385,
+                    "skY": 12.5385,
+                    "x": 10.6209
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "y": -1.3391,
+                    "skX": 9.3155,
+                    "skY": 9.3155,
+                    "x": 10.6209
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "scX": 1.05,
+                    "y": -1.2499,
+                    "scY": 1.05,
+                    "skX": -13.1191,
+                    "skY": -13.1191,
+                    "x": -5.2812
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "裙摆b"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 10,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "skX": 4.2025,
+                    "skY": 4.2025
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 16,
+                  "transform": {
+                    "scX": 1.0509,
+                    "y": -2.5648,
+                    "scY": 1.0509,
+                    "skX": -5.3471,
+                    "skY": -5.3471,
+                    "x": 0.8554
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "y": 0.5394,
+                    "skX": 2.3007,
+                    "skY": 2.3007,
+                    "x": 2.0719
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "skX": -9.5009,
+                    "skY": -9.5009
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "y": -1.6069,
+                    "skX": 9.0654,
+                    "skY": 9.0654,
+                    "x": 12.7451
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "y": -1.6069,
+                    "skX": 9.0654,
+                    "skY": 9.0654,
+                    "x": 12.7451
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "y": -1.6069,
+                    "skX": 9.0654,
+                    "skY": 9.0654,
+                    "x": 12.7451
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "scX": 1.02,
+                    "scY": 1.02,
+                    "skX": -11.6594,
+                    "skY": -11.6594
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "左裤裆1"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 10,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "scX": 0.98,
+                    "y": -7.4352,
+                    "scY": 0.98,
+                    "skX": -107.4849,
+                    "skY": -107.4849,
+                    "x": -8.9857
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 16,
+                  "transform": {
+                    "scX": 0.98,
+                    "y": -7.4352,
+                    "scY": 0.98,
+                    "skX": -115.2509,
+                    "skY": -115.2509,
+                    "x": -8.9857
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "scX": 0.98,
+                    "y": -7.4352,
+                    "scY": 0.98,
+                    "skX": -107.4849,
+                    "skY": -107.4849,
+                    "x": -8.9857
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "scX": 0.98,
+                    "y": -7.4352,
+                    "scY": 0.98,
+                    "skX": -107.4849,
+                    "skY": -107.4849,
+                    "x": -8.9857
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "scX": 0.98,
+                    "y": -7.4352,
+                    "scY": 0.98,
+                    "skX": -149.5775,
+                    "skY": -149.5775,
+                    "x": -8.9857
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "scX": 0.98,
+                    "y": -7.4352,
+                    "scY": 0.98,
+                    "skX": -152.5713,
+                    "skY": -152.5713,
+                    "x": -8.9857
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "scX": 0.98,
+                    "y": -7.4352,
+                    "scY": 0.98,
+                    "skX": -153.0301,
+                    "skY": -153.0301,
+                    "x": -8.9857
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "scX": 0.988,
+                    "y": -4.4611,
+                    "scY": 0.988,
+                    "skX": -6.6606,
+                    "skY": -6.6606,
+                    "x": -5.3914
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "右小腿"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 10,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "y": 10.9399,
+                    "skX": 0.391,
+                    "skY": 0.391,
+                    "x": -0.4649
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 16,
+                  "transform": {
+                    "y": 10.9399,
+                    "skX": 0.391,
+                    "skY": 0.391,
+                    "x": -0.4649
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "y": 10.9399,
+                    "skX": 0.391,
+                    "skY": 0.391,
+                    "x": -0.4649
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "y": 10.9399,
+                    "skX": 0.391,
+                    "skY": 0.391,
+                    "x": -0.4649
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "y": 10.9399,
+                    "skX": 0.391,
+                    "skY": 0.391,
+                    "x": -0.4649
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "y": 10.9399,
+                    "skX": 0.391,
+                    "skY": 0.391,
+                    "x": -0.4649
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "y": 10.9399,
+                    "skX": 0.391,
+                    "skY": 0.391,
+                    "x": -0.4649
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "scX": 1.0064,
+                    "y": 6.564,
+                    "scY": 1.0064,
+                    "skX": 0.2346,
+                    "skY": 0.2346,
+                    "x": -0.279
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "右背剑"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "skX": -0.0777,
+                    "skY": -0.0777
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 16,
+                  "transform": {
+                    "skX": -0.0777,
+                    "skY": -0.0777
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "skX": -0.0777,
+                    "skY": -0.0777
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "skX": -0.0777,
+                    "skY": -0.0777
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "skX": -0.0777,
+                    "skY": -0.0777
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "skX": -0.0777,
+                    "skY": -0.0777
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 13,
+                  "transform": {
+                    "skX": -0.0777,
+                    "skY": -0.0777
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "左手"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    1,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "y": 3.0711,
+                    "skX": 17.0142,
+                    "skY": 17.0142,
+                    "x": -0.6939
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 16,
+                  "transform": {
+                    "y": 3.0711,
+                    "skX": 14.4021,
+                    "skY": 14.4021,
+                    "x": -0.6939
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "y": 3.0711,
+                    "skX": 17.0142,
+                    "skY": 17.0142,
+                    "x": -0.6939
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "y": 3.0711,
+                    "skX": 17.0142,
+                    "skY": 17.0142,
+                    "x": -0.6939
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "y": 3.0711,
+                    "skX": 4.3451,
+                    "skY": 4.3451,
+                    "x": -0.6939
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "y": 2.9176,
+                    "skX": 3.1279,
+                    "skY": 3.1279,
+                    "x": 0.3443
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "y": 3.2863,
+                    "skX": -7.9776,
+                    "skY": -7.9776,
+                    "x": -0.673
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "skX": -10.6539,
+                    "skY": -10.6539
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "头"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 10,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "y": 0.1496,
+                    "skX": 28.9684,
+                    "skY": 28.9684,
+                    "x": -6.5134
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 16,
+                  "transform": {
+                    "y": 0.1496,
+                    "skX": 34.5953,
+                    "skY": 34.5953,
+                    "x": -6.5134
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "y": 0.1496,
+                    "skX": 28.9684,
+                    "skY": 28.9684,
+                    "x": -6.5134
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "y": 0.1496,
+                    "skX": 28.9684,
+                    "skY": 28.9684,
+                    "x": -6.5134
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "y": 0.1496,
+                    "skX": 28.9684,
+                    "skY": 28.9684,
+                    "x": -6.5134
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "y": 0.1496,
+                    "skX": 28.9684,
+                    "skY": 28.9684,
+                    "x": -6.5134
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 13,
+                  "transform": {
+                    "y": 0.1496,
+                    "skX": 28.9684,
+                    "skY": 28.9684,
+                    "x": -6.5134
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "右裤裆"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 10,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "y": 0.1974,
+                    "skX": -0.0777,
+                    "skY": -0.0777,
+                    "x": 3.35
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 16,
+                  "transform": {
+                    "scX": 1.0511,
+                    "y": 0.1974,
+                    "scY": 1.0511,
+                    "skX": -0.0777,
+                    "skY": -0.0777,
+                    "x": 3.35
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "y": 0.1974,
+                    "skX": -0.0777,
+                    "skY": -0.0777,
+                    "x": 3.35
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "y": 0.1974,
+                    "skX": -0.0777,
+                    "skY": -0.0777,
+                    "x": 3.35
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "y": 0.1974,
+                    "skX": -0.0777,
+                    "skY": -0.0777,
+                    "x": 3.35
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "y": 0.1974,
+                    "skX": -2.7237,
+                    "skY": -2.7237,
+                    "x": 3.35
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "y": 0.1974,
+                    "skX": -2.7237,
+                    "skY": -2.7237,
+                    "x": 3.35
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "scX": 1.1424,
+                    "y": -0.1638,
+                    "scY": 1.1424,
+                    "skX": -0.0466,
+                    "skY": -0.0466,
+                    "x": 8.3663
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "左小腿"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 10,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "y": 3.5905,
+                    "skX": -27.4152,
+                    "skY": -27.4152,
+                    "x": -0.984
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 16,
+                  "transform": {
+                    "y": 3.5905,
+                    "skX": -31.7937,
+                    "skY": -31.7937,
+                    "x": -0.984
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "y": 3.5905,
+                    "skX": -27.4152,
+                    "skY": -27.4152,
+                    "x": -0.984
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "y": 3.5905,
+                    "skX": 29.0416,
+                    "skY": 29.0416,
+                    "x": -0.984
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "y": 3.5905,
+                    "skX": 11.9203,
+                    "skY": 11.9203,
+                    "x": -0.984
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "y": 4.3164,
+                    "skX": -1.8935,
+                    "skY": -1.8935,
+                    "x": 2.8833
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "y": 4.3164,
+                    "skX": -5.5361,
+                    "skY": -5.5361,
+                    "x": 2.8833
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "scX": 0.96,
+                    "y": 2.1543,
+                    "scY": 0.96,
+                    "skX": -32.5856,
+                    "skY": -32.5856,
+                    "x": -0.5904
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "右上臂"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 10,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "scX": 1.02,
+                    "scY": 1.02,
+                    "skX": -4.6299,
+                    "skY": -4.6299
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 16,
+                  "transform": {
+                    "skX": -9.5081,
+                    "skY": -9.5081
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "skX": -4.6299,
+                    "skY": -4.6299
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "skX": -12.9641,
+                    "skY": -12.9641
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "y": 0.1102,
+                    "skX": 21.5499,
+                    "skY": 21.5499,
+                    "x": 8.3954
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "scX": 1.03,
+                    "y": 0.1102,
+                    "scY": 1.03,
+                    "skX": 12.5698,
+                    "skY": 12.5698,
+                    "x": 8.3954
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "scX": 1.03,
+                    "y": 0.1102,
+                    "scY": 1.03,
+                    "skX": 11.6269,
+                    "skY": 11.6269,
+                    "x": 8.3954
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "scX": 1.0329,
+                    "scY": 1.0329,
+                    "skX": -25.2707,
+                    "skY": -25.2707
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "左肩"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 10,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "scX": 0.98,
+                    "skX": -44.3401,
+                    "skY": -44.3401
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 16,
+                  "transform": {
+                    "scX": 0.98,
+                    "skX": -43.2889,
+                    "skY": -43.2889
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "scX": 0.98,
+                    "skX": -44.3401,
+                    "skY": -44.3401
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "skX": -42.1264,
+                    "skY": -42.1264
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "skX": -42.385,
+                    "skY": -42.385
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "skX": -23.2744,
+                    "skY": -23.2744
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "skX": -32.5604,
+                    "skY": -32.5604
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "skX": 26.0506,
+                    "skY": 26.0506
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "右下臂"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 10,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "skX": -0.0777,
+                    "skY": -0.0777
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 16,
+                  "transform": {
+                    "skX": -0.0777,
+                    "skY": -0.0777
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "skX": -0.0777,
+                    "skY": -0.0777
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "skX": -0.0777,
+                    "skY": -0.0777
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "skX": -0.0777,
+                    "skY": -0.0777
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "skX": -0.0777,
+                    "skY": -0.0777
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 13,
+                  "transform": {
+                    "skX": -0.0777,
+                    "skY": -0.0777
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "左肩 前1"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 10,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "scX": 1.1,
+                    "y": 1.4375,
+                    "skX": -19.5803,
+                    "skY": -19.5803,
+                    "x": 4.7876
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 16,
+                  "transform": {
+                    "scX": 1.1,
+                    "y": 1.4375,
+                    "skX": -11.4357,
+                    "skY": -11.4357,
+                    "x": 4.7876
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "scX": 1.1,
+                    "y": 1.4375,
+                    "skX": -14.6033,
+                    "skY": -14.6033,
+                    "x": 4.7876
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "scX": 1.1,
+                    "y": 1.4375,
+                    "skX": -8.0134,
+                    "skY": -8.0134,
+                    "x": 4.7876
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "scX": 1.2082,
+                    "y": -5.8261,
+                    "scY": 1.0984,
+                    "skX": 73.8585,
+                    "skY": 73.8585,
+                    "x": -18.0643
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "y": -5.8261,
+                    "skX": 84.4298,
+                    "skY": 84.4298,
+                    "x": -18.0643
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "y": -5.8261,
+                    "skX": 84.4298,
+                    "skY": 84.4298,
+                    "x": -18.0643
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "scX": 1.1385,
+                    "y": -3.5067,
+                    "scY": 1.074,
+                    "skX": -15.1988,
+                    "skY": -15.1988,
+                    "x": 6.3663
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "左上臂"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 10,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "skX": 4.6448,
+                    "skY": 4.6448
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 16,
+                  "transform": {
+                    "skX": 8.9852,
+                    "skY": 8.9852
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "skX": 4.6448,
+                    "skY": 4.6448
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "skX": 4.6448,
+                    "skY": 4.6448
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "skX": 4.6448,
+                    "skY": 4.6448
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "skX": -1.9381,
+                    "skY": -1.9381
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "skX": -1.9381,
+                    "skY": -1.9381
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "skX": -5.1119,
+                    "skY": -5.1119
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "枪"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 10,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "scX": 1.02,
+                    "y": -2.4288,
+                    "scY": 1.02,
+                    "skX": -31.5386,
+                    "skY": -31.5386,
+                    "x": 9.0366
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 16,
+                  "transform": {
+                    "scX": 1.0445,
+                    "y": -2.4288,
+                    "scY": 1.0445,
+                    "skX": -17.4471,
+                    "skY": -17.4471,
+                    "x": 9.0366
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "scX": 1.02,
+                    "y": -2.4288,
+                    "scY": 1.02,
+                    "skX": -31.5386,
+                    "skY": -31.5386,
+                    "x": 9.0366
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "scX": 1.02,
+                    "scY": 1.02,
+                    "skX": -19.827,
+                    "skY": -19.827
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "scX": 1.02,
+                    "scY": 1.02,
+                    "skX": -39.8746,
+                    "skY": -39.8746
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "scX": 1.02,
+                    "scY": 1.02,
+                    "skX": -22.6138,
+                    "skY": -22.6138
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "scX": 1.02,
+                    "scY": 1.02,
+                    "skX": -22.6138,
+                    "skY": -22.6138
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "scX": 1.012,
+                    "scY": 1.012,
+                    "skX": 27.0678,
+                    "skY": 27.0678
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {},
+                  "tweenEasing": null
+                }
+              ],
+              "name": "左下臂"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 10,
+                  "transform": {
+                    "y": 0.2424,
+                    "skX": 23.7117,
+                    "skY": 23.7117,
+                    "x": -1.6157
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "scX": 1.02,
+                    "y": -3.1417,
+                    "scY": 1.02,
+                    "skX": 6.6759,
+                    "skY": 6.6759,
+                    "x": -1.1981
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 16,
+                  "transform": {
+                    "scX": 1.0696,
+                    "y": -3.1417,
+                    "scY": 1.0696,
+                    "skX": 27.5893,
+                    "skY": 27.5893,
+                    "x": -1.1981
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "scX": 1.02,
+                    "y": -3.1417,
+                    "scY": 1.02,
+                    "skX": 20.1104,
+                    "skY": 20.1104,
+                    "x": -1.1981
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "scX": 1.02,
+                    "y": -1.6166,
+                    "scY": 1.02,
+                    "skX": 42.434,
+                    "skY": 42.434,
+                    "x": -4.6733
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "scX": 1.02,
+                    "y": -1.6166,
+                    "scY": 1.02,
+                    "skX": 30.1006,
+                    "skY": 30.1006,
+                    "x": -4.6733
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "scX": 1.02,
+                    "y": -1.6166,
+                    "scY": 1.02,
+                    "skX": 43.1796,
+                    "skY": 43.1796,
+                    "x": -4.6733
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 13,
+                  "transform": {
+                    "scX": 1.02,
+                    "y": -1.6166,
+                    "scY": 1.02,
+                    "skX": 27.3952,
+                    "skY": 27.3952,
+                    "x": -4.6733
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {
+                    "y": 0.2424,
+                    "skX": 23.7117,
+                    "skY": 23.7117,
+                    "x": -1.6157
+                  },
+                  "tweenEasing": null
+                }
+              ],
+              "name": "左手1"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 10,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 14,
+                  "transform": {
+                    "y": 2.2332,
+                    "x": 3.2447
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 16,
+                  "transform": {
+                    "y": -1.2253,
+                    "skX": -20.8472,
+                    "skY": -20.8472,
+                    "x": 4.5245
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "y": 2.6311,
+                    "skX": -2.4114,
+                    "skY": -2.4114,
+                    "x": 10.4111
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "y": 0.5617,
+                    "skX": -1.2984,
+                    "skY": -1.2984,
+                    "x": 5.5125
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "y": 11.8358,
+                    "x": 17.1967
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "y": 11.8358,
+                    "skX": 11.9519,
+                    "skY": 11.9519,
+                    "x": 17.1967
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "y": 11.8358,
+                    "x": 17.1967
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "y": 0.2736,
+                    "skX": -8.4603,
+                    "skY": -8.4603,
+                    "x": 2.155
+                  },
+                  "tweenEasing": null
+                }
+              ],
+              "name": "裙摆"
+            }
+          ],
+          "name": "射击",
+          "slot": [
+            {
+              "frame": [
+                {
+                  "duration": 74,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "右背剑"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 74,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "左背剑"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 74,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "右下臂"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 74,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "右上臂"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 74,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "右肩"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 74,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "枪"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 74,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "身体"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 74,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "右脚"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 74,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "右大腿"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 74,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "右小腿"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 74,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "右裤裆"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 74,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "头"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 74,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "左胸"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 74,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "裤裆"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 74,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "裙摆"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 74,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "左脚"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 74,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "左大腿"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 74,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "左小腿"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 74,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "裙摆b"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 74,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "左裤裆"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 74,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "左肩 后"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 74,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "左上臂"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 74,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "左肩 前"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 74,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "左下臂"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 74,
+                  "tweenEasing": 0,
+                  "color": {}
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "color": {}
+                }
+              ],
+              "name": "左手"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "name": "unicorn",
+  "version": "4.0"
+}
