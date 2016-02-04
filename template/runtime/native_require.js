@@ -8,7 +8,7 @@ var game_file_list = [
 	"libs/modules/tween/tween.js",
 	"libs/modules/res/res.js",
 	"libs/modules/dragonbones/dragonbones.js",
-	"bin-debug/com/egretTopTools/DragonBonesInfoTree.js",
+	"bin-debug/com/egretTopTools/DragonBonesDataTree.js",
 	"bin-debug/com/egretTopTools/trace.js",
 	"bin-debug/GameApplication.js",
 	"bin-debug/modules/DragonbonesArmature.js",
@@ -42,7 +42,7 @@ egret_native.egretStart = function () {
         //以下为自动修改，请勿修改
         //----auto option start----
 		entryClassName: "GameApplication",
-		frameRate: 30,
+		frameRate: 60,
 		scaleMode: "noScale",
 		contentWidth: 1200,
 		contentHeight: 675,

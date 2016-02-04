@@ -2,7 +2,7 @@
  * Created by YeXin on 2016/2/2.
  */
 
-class DragonBonesInfoTree
+class DragonBonesDataTree
 {
     private static detailed:boolean;
 
@@ -18,10 +18,10 @@ class DragonBonesInfoTree
      */
     public static read(url:string, detailed:boolean = false):void
     {
-        DragonBonesInfoTree.detailed = detailed;
+        DragonBonesDataTree.detailed = detailed;
         var urlLoader:egret.URLLoader = new egret.URLLoader();
-        urlLoader.addEventListener(egret.Event.COMPLETE, DragonBonesInfoTree.onComplete, DragonBonesInfoTree);
-        urlLoader.addEventListener(egret.IOErrorEvent.IO_ERROR, DragonBonesInfoTree.onError, DragonBonesInfoTree);
+        urlLoader.addEventListener(egret.Event.COMPLETE, DragonBonesDataTree.onComplete, DragonBonesDataTree);
+        urlLoader.addEventListener(egret.IOErrorEvent.IO_ERROR, DragonBonesDataTree.onError, DragonBonesDataTree);
 
 
         urlLoader.load(new egret.URLRequest(url));
@@ -38,7 +38,6 @@ class DragonBonesInfoTree
         var urlLoaderData:any = JSON.parse(event.target.data);
 
         var armatures = urlLoaderData["armature"];
-
         trace("数据版本:",urlLoaderData["version"]);
 
         trace("帧频:", urlLoaderData["frameRate"], "fps");
@@ -82,9 +81,22 @@ class DragonBonesInfoTree
                         trace("\n        urlLoaderData.armature[" + index + "] 节点的骨骼动画信息列表(长度为 " + animation.length + "):")
                         for (var anmIndex in animation)
                         {
-                            if (DragonBonesInfoTree.detailed)
+                            if (DragonBonesDataTree.detailed)
                             {
-                                trace("                                名称(animation[" + anmIndex + "].name):" + animation[anmIndex]["name"], "  总帧数(animation[" + anmIndex + "].duration):" + animation[anmIndex]["duration"], "  默认循环次数(animation[" + anmIndex + "].playTimes):" + (animation[anmIndex]["playTimes"] == undefined ? 1 : animation[anmIndex]["playTimes"]), "  预计耗时:" + (animation[anmIndex]["duration"] / urlLoaderData["frameRate"]).toFixed(4))
+                                if(Number(urlLoaderData["version"]) >= 4)
+                                {
+                                    trace("                                名称(animation[" + anmIndex + "].name):" + animation[anmIndex]["name"], "  总帧数(animation[" + anmIndex + "].duration):" + animation[anmIndex]["duration"], "  默认循环次数(animation[" + anmIndex + "].playTimes):" + (animation[anmIndex]["playTimes"] == undefined ? 1 : animation[anmIndex]["playTimes"]), "  预计默认循环耗时:" + (animation[anmIndex]["duration"] / urlLoaderData["frameRate"]).toFixed(4));
+                                    //默认循环耗时 = 龙骨动画总帧数 / 龙骨动画帧频，只是一个系数，不代表实际的循环时间
+                                    //默认循环耗时 可以通过执行 armature.animation.gotoAndPlay("xxx")后的返回对象的totalTime属性获得
+                                    //实际循环时间 ≈ ((1/60) * 默认循环耗时) / (advanceTime参数 * 时间缩放比例 * 动作速度比例)
+                                }
+                                else
+                                {
+                                    trace("                                名称(animation[" + anmIndex + "].name):" + animation[anmIndex]["name"], "  总帧数(animation[" + anmIndex + "].duration):" + animation[anmIndex]["duration"],"  默认循环次数(animation[" + anmIndex + "].loop):" + (animation[anmIndex]["loop"] == undefined ? 1 : animation[anmIndex]["loop"]), "  预计默认循环耗时:" + (animation[anmIndex]["duration"] / urlLoaderData["frameRate"]).toFixed(4));
+                                    //默认循环耗时 = 龙骨动画总帧数 / 龙骨动画帧频，只是一个系数，不代表实际的循环时间
+                                    //默认循环耗时 可以通过执行 armature.animation.gotoAndPlay("xxx")后的返回对象的totalTime属性获得
+                                    //实际循环时间 ≈ ((1/60) * 默认循环耗时) / (advanceTime参数 * 时间缩放比例 * 动作速度比例)
+                                }
                             }
                             else
                             {
@@ -145,7 +157,7 @@ class DragonBonesInfoTree
                                 {
                                     if(slot.name == bone[boneIndex]["name"])
                                     {
-                                        slotName = slot.display[0].name;
+                                        slotName = slot.name;
                                         break;
                                     }
                                 }
@@ -153,7 +165,7 @@ class DragonBonesInfoTree
 
 
 
-                            if (DragonBonesInfoTree.detailed)
+                            if (DragonBonesDataTree.detailed)
                             {
                                 if (slotName == "undefined")
                                 {
@@ -167,7 +179,7 @@ class DragonBonesInfoTree
                                     }
                                     else
                                     {
-                                        trace("                                骨骼名称(bone[" + boneIndex + "].name):" + bone[boneIndex]["name"], "  绑定插槽名称(skin[0].slot[" + slotIndex +"].display[0].name):" + slotName);
+                                        trace("                                骨骼名称(bone[" + boneIndex + "].name):" + bone[boneIndex]["name"], "  绑定插槽名称(skin[0].slot[" + slotIndex +"].name):" + slotName);
                                     }
                                 }
                             }

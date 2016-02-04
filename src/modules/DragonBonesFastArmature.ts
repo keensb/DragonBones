@@ -42,10 +42,10 @@ module modules
 
             //把骨架加入世界钟的控制列表
             dragonBones.WorldClock.clock.add(armature);
-            //选择骨架的所要播放的动画名称
+
             armature.animation.timeScale = 0.2;//设置时间缩放比例，越大越快
 
-            //一般情况下出现类似 'setCurrentTime' of null 报错是因为关键帧标签名有误
+            //一般情况下出现类似 'setCurrentTime' of null 报错是因为动作名有误
             var anmfs:dragonBones.FastAnimationState = armature.animation.gotoAndPlay("射击");//⑤动画关键帧标签名称
 
             //anmfs.setCurrentTime(2);//设置当前时间播放头，单位：秒(龙骨工具不用“帧”来控制播放头的位置?)
@@ -55,16 +55,17 @@ module modules
 
 
             //egret的同步事件(官方建议使用，理由是效率较高，另外似乎在慢镜头下比较细腻一些)
-            egret.Ticker.getInstance().register(
+            egret.startTick(
                 function (frameTime:number)
                 {
                     //===============注意一下：极速模式下似乎没有 动作速度比例 这个属性，但是有 时间缩放比例 这个属性已经足够了===============
                     //目前web最高帧频是 60 fps，每帧的驻留时间相当于 1/60 秒;
                     dragonBones.WorldClock.clock.advanceTime(1 / 60);//默认值为-1，自动计算播放速度(最短时间间隔 秒 也就是1/60)。
 
-                    // (未证实的结论：时间循环时间 = ((1/60) * 默认循环时间) / (advanceTime参数 * 时间缩放比例) 。参数和比例越大播放速度越快。
+                    // (未证实的结论：实际循环时间 约等于 ((1/60) * 默认循环耗时) / (advanceTime参数 * 时间缩放比例) 。参数和比例越大播放速度越快。
                     //如果要放慢一倍速度，可以 dragonBones.WorldClock.clock.advanceTime(1/60/2);
                     //或者更改时间缩放比例 armature.animation.timeScale = 0.5
+                    return false;
                 },
                 displayContainer
             );

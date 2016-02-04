@@ -49,11 +49,41 @@
       "name": "fireLord_png",
       "type": "image",
       "url": "assets/bones/firelord/texture.png"
+    },
+    {
+      "name":"skeletonRotbot",
+      "type":"json",
+      "url":"assets/bones/robot2/skeleton.json"
+    },
+    {
+      "name":"skeletonRotbot_json",
+      "type":"json",
+      "url":"assets/bones/robot2/texture.json"
+    },
+    {
+      "name":"skeletonRotbot_png",
+      "type":"image",
+      "url":"assets/bones/robot2/texture.png"
+    },
+    {
+      "name":"skeletonWarrior",
+      "type":"json",
+      "url":"assets/bones/warrior/skeleton.json"
+    },
+    {
+      "name":"skeletonWarrior_json",
+      "type":"json",
+      "url":"assets/bones/warrior/texture.json"
+    },
+    {
+      "name":"skeletonWarrior_png",
+      "type":"image",
+      "url":"assets/bones/warrior/texture.png"
     }
   ],
   "groups": [
     {
-      "keys": "Robot,Robot_json,Robot_png,unicorn,unicorn_json,unicorn_png,fireLord,fireLord_json,fireLord_png",
+      "keys": "Robot,Robot_json,Robot_png,unicorn,unicorn_json,unicorn_png,fireLord,fireLord_json,fireLord_png,skeletonRotbot,skeletonRotbot_json,skeletonRotbot_png,skeletonWarrior,skeletonWarrior_json,skeletonWarrior_png",
       "name": "bones"
     }
   ]

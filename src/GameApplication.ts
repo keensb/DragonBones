@@ -94,13 +94,13 @@ class GameApplication extends egret.DisplayObjectContainer
 
 
         //读取骨骼动画数据文件里的关键信息，以树形结构输出控制台中
-        DragonBonesInfoTree.read("resource/assets/bones/robot/Robot.json", false);
+        DragonBonesDataTree.read("resource/assets/bones/robot2/skeleton.json", true);
         //关于创建
-        this.dragonbonesArmature();//一般模式，多用于玩家角色
+        //this.dragonbonesArmature();//一般模式，多用于玩家角色
         //this.dragonbonesFastArmature();//极速模式+数据缓存,不支持多个动画同时播放（动画融合），并且不支持大多动态控制，多用于非玩家角色
 
         //关于动态控制
-        //this.dragonbonesCopyAnimations();//拷贝骨骼动画
+        this.dragonbonesCopyAnimations();//拷贝骨骼动画
     }
 
     private dragonbonesArmature():void
