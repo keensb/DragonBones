@@ -1,0 +1,37 @@
+{
+	"close":false,
+	"natures":["egretProject"],
+	"resourcePlugin":{
+		"configs":[],
+		"id":"org.egret-labs.resource",
+		"library":{
+			"children":[
+				{
+					"isFolder":false,
+					"key":"resource/assets/bones/firelord/texture.png",
+					"name":"texture.png"
+				},
+				{
+					"isFolder":false,
+					"key":"resource/assets/bones/robot/texture.png",
+					"name":"texture.png"
+				},
+				{
+					"isFolder":false,
+					"key":"resource/assets/bones/robot2/texture.png",
+					"name":"texture.png"
+				},
+				{
+					"isFolder":false,
+					"key":"resource/assets/bones/unicorn/texture.png",
+					"name":"texture.png"
+				},
+				{
+					"isFolder":false,
+					"key":"resource/assets/bones/warrior/texture.png",
+					"name":"texture.png"
+				}
+			]
+		}
+	}
+}

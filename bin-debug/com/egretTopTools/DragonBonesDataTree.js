@@ -1,86 +1,58 @@
 /**
  * Created by YeXin on 2016/4/4.
  */
-
-class DragonBonesDataTree
-{
-    private static detailed:boolean;
-
-    public constructor()
-    {
+var DragonBonesDataTree = (function () {
+    function DragonBonesDataTree() {
         throw new Error(this["__class__"] + " 是静态成员集成类，无需实例化");
     }
-
+    var d = __define,c=DragonBonesDataTree,p=c.prototype;
     /**
      * 读取龙骨数据信息，并以树形结构输出在控制台中
      * @param url   龙骨数据文件(.json)路径
      * @param detailed  是否显示详尽信息
      */
-    public static read(url:string, detailed:boolean = false):void
-    {
+    DragonBonesDataTree.read = function (url, detailed) {
+        if (detailed === void 0) { detailed = false; }
         DragonBonesDataTree.detailed = detailed;
-        var urlLoader:egret.URLLoader = new egret.URLLoader();
+        var urlLoader = new egret.URLLoader();
         urlLoader.addEventListener(egret.Event.COMPLETE, DragonBonesDataTree.onComplete, DragonBonesDataTree);
         urlLoader.addEventListener(egret.IOErrorEvent.IO_ERROR, DragonBonesDataTree.onError, DragonBonesDataTree);
-
-
         urlLoader.load(new egret.URLRequest(url));
-
-    }
-
-    private static onError(event:egret.IOErrorEvent):void
-    {
+    };
+    DragonBonesDataTree.onError = function (event) {
         trace("读取信息错误,请检查url是否正确");
-    }
-
-    private static onComplete(event:egret.Event):void
-    {
-        var urlLoaderData:any = JSON.parse(event.target.data);
-
+    };
+    DragonBonesDataTree.onComplete = function (event) {
+        var urlLoaderData = JSON.parse(event.target.data);
         var armatures = urlLoaderData["armature"];
         trace("数据版本:", urlLoaderData["version"]);
-
         trace("帧频:", urlLoaderData["frameRate"], "fps");
         trace("文件名:", urlLoaderData["name"]);
-
         var armatureCounts = 0;
-        for (var armaturesIndex = 0; armaturesIndex < armatures.length; armaturesIndex++)
-        {
-            if (armatures[armaturesIndex] && armatures[armaturesIndex]["name"])
-            {
+        for (var armaturesIndex = 0; armaturesIndex < armatures.length; armaturesIndex++) {
+            if (armatures[armaturesIndex] && armatures[armaturesIndex]["name"]) {
                 armatureCounts++;
             }
         }
         trace("骨架数量:", armatureCounts);
-        if (DragonBonesDataTree.detailed)
-        {
+        if (DragonBonesDataTree.detailed) {
             trace("骨架名称:");
-            for (var index = 0; index < armatures.length; index++)
-            {
-                if (armatures[index] && armatures[index]["name"])
-                {
+            for (var index = 0; index < armatures.length; index++) {
+                if (armatures[index] && armatures[index]["name"]) {
                     trace("    [" + index + "] " + armatures[index]["name"]);
                 }
             }
         }
-
-
-        for (index = 0; index < armatures.length; index++)
-        {
-            trace("\n\n    " + urlLoaderData["name"] + " 数据骨架列表节点下标为 [" + index + "] 的骨架名称(urlLoaderData.armature[" + index + "].name):", armatures[index]["name"]);//查找 骨架 name 属性的 值  用于生成骨架   var armature: dragonBones.Armature = dragonbonesFactory.buildArmature("骨架名称");
-            if (DragonBonesDataTree.detailed)
-            {
+        for (index = 0; index < armatures.length; index++) {
+            trace("\n\n    " + urlLoaderData["name"] + " 数据骨架列表节点下标为 [" + index + "] 的骨架名称(urlLoaderData.armature[" + index + "].name):", armatures[index]["name"]); //查找 骨架 name 属性的 值  用于生成骨架   var armature: dragonBones.Armature = dragonbonesFactory.buildArmature("骨架名称");
+            if (DragonBonesDataTree.detailed) {
                 trace("\n        urlLoaderData.armature[" + index + "] 拥有以下子节点对象：");
             }
-
             //for (var armatureInfo in armatures)
-
             var armatureInfo = armatures[index];
             var nodeInfo;
-            if (DragonBonesDataTree.detailed)
-            {
-                for (nodeInfo in armatureInfo)
-                {
+            if (DragonBonesDataTree.detailed) {
+                for (nodeInfo in armatureInfo) {
                     trace("                                " + nodeInfo);
                 }
             }
@@ -91,140 +63,88 @@ class DragonBonesDataTree
              slot//关节列表
              animation//动画列表
              */
-
-            nodeInfo = "animation";////查找 骨骼动画 name 属性的 值   用于控制动画播放内容  armature.animation.gotoAndPlay("骨骼动画名")
+            nodeInfo = "animation"; ////查找 骨骼动画 name 属性的 值   用于控制动画播放内容  armature.animation.gotoAndPlay("骨骼动画名")
             //if (nodeInfo == "animation")//查找 骨骼动画 name 属性的 值   用于控制动画播放内容  armature.animation.gotoAndPlay("骨骼动画名")
             //{
             var animation = armatureInfo["animation"];
-            var infoText:string = "";
-
+            var infoText = "";
             trace("\n        urlLoaderData.armature[" + index + "] 节点的骨骼动画信息列表(长度为 " + animation.length + "):");
-
-            for (var anmIndex in animation)
-            {
-                if (DragonBonesDataTree.detailed)
-                {
-                    if (Number(urlLoaderData["version"]) >= 4)
-                    {
-
+            for (var anmIndex in animation) {
+                if (DragonBonesDataTree.detailed) {
+                    if (Number(urlLoaderData["version"]) >= 4) {
                         trace("                                动画名称(animation[" + anmIndex + "].name):" + animation[anmIndex]["name"], "  总帧数(animation[" + anmIndex + "].duration):" + (animation[anmIndex]["duration"] + 1), "  默认循环次数(animation[" + anmIndex + "].playTimes):" + (animation[anmIndex]["playTimes"] == undefined ? 1 : animation[anmIndex]["playTimes"]), "  预计默认循环耗时:" + (animation[anmIndex]["duration"] / urlLoaderData["frameRate"]).toFixed(4));
-                        //因为龙骨动画帧数是从0开始计算的，所以总帧数其实是一个下标，要加1才是真正的总帧数
-                        //默认循环耗时 = 龙骨动画总帧数 / 龙骨动画帧频，只是一个系数，不代表实际的循环时间
-                        //默认循环耗时 可以通过执行 armature.animation.gotoAndPlay("xxx")后的返回对象的totalTime属性获得
-                        //实际循环时间 ≈ ((1/60) * 默认循环耗时) / (advanceTime参数 * 时间缩放比例 * 动作速度比例)
                     }
-                    else
-                    {
+                    else {
                         trace("                                动画名称(animation[" + anmIndex + "].name):" + animation[anmIndex]["name"], "  总帧数(animation[" + anmIndex + "].duration):" + (animation[anmIndex]["duration"] + 1), "  默认循环次数(animation[" + anmIndex + "].loop):" + (animation[anmIndex]["loop"] == undefined ? 1 : animation[anmIndex]["loop"]), "  预计默认循环耗时:" + (animation[anmIndex]["duration"] / urlLoaderData["frameRate"]).toFixed(4));
-                        //因为龙骨动画帧数是从0开始计算的，所以总帧数其实是一个下标，要加1才是真正的总帧数
-                        //默认循环耗时 = 龙骨动画总帧数 / 龙骨动画帧频，只是一个系数，不代表实际的循环时间
-                        //默认循环耗时 可以通过执行 armature.animation.gotoAndPlay("xxx")后的返回对象的totalTime属性获得
-                        //实际循环时间 ≈ ((1/60) * 默认循环耗时) / (advanceTime参数 * 时间缩放比例 * 动作速度比例)
                     }
                 }
-                else
-                {
-                    infoText += ("\n                                " + animation[anmIndex]["name"])
-                    //trace("                                " + animation[anmIndex]["name"]);
+                else {
+                    infoText += ("\n                                " + animation[anmIndex]["name"]);
                 }
-
             }
             //}
-            if (!DragonBonesDataTree.detailed)
-            {
+            if (!DragonBonesDataTree.detailed) {
                 trace(infoText);
             }
-
             infoText = "";
-
             nodeInfo = "bone";
             //if (nodeInfo == "bone")
             //{
             var bone = armatureInfo["bone"];
             var slotArray;
-            if (armatureInfo["slot"])
-            {
+            if (armatureInfo["slot"]) {
                 slotArray = armatureInfo["slot"].concat();
             }
-
-            if (Number(urlLoaderData["version"]) < 4)//4.0以下版本的数据插槽的遍历方式
-            {
-                if (armatures[index].skin && armatures[index].skin.length)
-                {
+            if (Number(urlLoaderData["version"]) < 4) {
+                if (armatures[index].skin && armatures[index].skin.length) {
                     slotArray = armatures[index].skin[0].slot.concat();
-
-                    if (armatures[index].skin.length > 1)
-                    {
-                        for (var skinIndex = 1; skinIndex < armatures[index].skin.length; skinIndex++)
-                        {
-                            if (armatures[index].skin[skinIndex].slot)
-                            {
+                    if (armatures[index].skin.length > 1) {
+                        for (var skinIndex = 1; skinIndex < armatures[index].skin.length; skinIndex++) {
+                            if (armatures[index].skin[skinIndex].slot) {
                                 slotArray.concat(armatures[index].skin[skinIndex].slot);
                             }
                         }
                     }
                 }
-
             }
-
-            trace("\n        urlLoaderData.armature[" + index + "] 节点的骨骼部件名称列表(长度为 " + bone.length + "):")
-            for (var boneIndex in bone)
-            {
+            trace("\n        urlLoaderData.armature[" + index + "] 节点的骨骼部件名称列表(长度为 " + bone.length + "):");
+            for (var boneIndex in bone) {
                 var slotName = "undefined";
-
-                for (var slotIndex in slotArray)
-                {
+                for (var slotIndex in slotArray) {
                     var slot = slotArray[slotIndex];
-                    if (Number(urlLoaderData["version"]) >= 4)
-                    {
-                        if (slot.parent && slot.parent == bone[boneIndex]["name"])
-                        {
+                    if (Number(urlLoaderData["version"]) >= 4) {
+                        if (slot.parent && slot.parent == bone[boneIndex]["name"]) {
                             slotName = slot.name;
-
                             break;
                         }
                     }
-                    else
-                    {
-                        if (slot.name == bone[boneIndex]["name"])
-                        {
+                    else {
+                        if (slot.name == bone[boneIndex]["name"]) {
                             slotName = slot.name;
                             break;
                         }
                     }
                 }
-
-
-                if (DragonBonesDataTree.detailed)
-                {
-                    if (slotName == "undefined")
-                    {
+                if (DragonBonesDataTree.detailed) {
+                    if (slotName == "undefined") {
                         trace("                                骨骼名称(bone[" + boneIndex + "].name):" + bone[boneIndex]["name"], "  ---未绑定插槽---");
                     }
-                    else
-                    {
-                        if (Number(urlLoaderData["version"]) >= 4)
-                        {
+                    else {
+                        if (Number(urlLoaderData["version"]) >= 4) {
                             trace("                                骨骼名称(bone[" + boneIndex + "].name):" + bone[boneIndex]["name"], "  绑定插槽名称(slot[" + slotIndex + "].name):" + slotName);
                         }
-                        else
-                        {
+                        else {
                             trace("                                骨骼名称(bone[" + boneIndex + "].name):" + bone[boneIndex]["name"], "  绑定插槽名称(skin[0].slot[" + slotIndex + "].name):" + slotName);
                         }
                     }
                 }
-                else
-                {
+                else {
                     infoText += ("\n                                " + bone[boneIndex]["name"]);
-                    //trace("                                " + bone[boneIndex]["name"]);
                 }
             }
-            if (!DragonBonesDataTree.detailed)
-            {
+            if (!DragonBonesDataTree.detailed) {
                 trace(infoText);
             }
-
-
             /*
              //查找某个骨骼部件的名称，用于单独控制某一部件的活动 例如控制头部
              var head = this.armature.getBone("head");
@@ -239,44 +159,30 @@ class DragonBonesDataTree
              slot.setDisplay(image);//替换插槽的显示对象
              */
             //}
-
-            if (DragonBonesDataTree.detailed)
-            {
+            if (DragonBonesDataTree.detailed) {
                 var skin = armatureInfo["skin"];
                 trace("\n        urlLoaderData.armature[" + index + "] 节点的皮肤信息列表(长度为 " + skin.length + "):");
-                for (var skinIndex = 0; skinIndex < skin.length; skinIndex++)
-                {
+                for (var skinIndex = 0; skinIndex < skin.length; skinIndex++) {
                     var slotArray = skin[skinIndex].slot;
                     trace("\n            下标为 [" + skinIndex + "] 的皮肤名称(skin[" + skinIndex + "].name):" + skin[skinIndex]["name"] + " , 插槽信息列表(长度为" + slotArray.length + "): ");
-
-                    for (var slotIndex in slotArray)
-                    {
+                    for (var slotIndex in slotArray) {
                         var imageInfo = "";
                         var display = slotArray[slotIndex].display;
-                        for (var image in display)
-                        {
+                        for (var image in display) {
                             imageInfo += ("   " + display[image].name);
                         }
                         var count = "";
-                        if (display.length > 1)
-                        {
+                        if (display.length > 1) {
                             count = "(" + display.length + "个)";
                         }
                         trace("                                插槽名称 (skin[" + skinIndex + "].slot[" + slotIndex + "].name):" + slotArray[slotIndex].name + "    绑定的图像为" + count + ":  " + imageInfo);
                     }
-
-                    /*
-                     一个插槽可以绑定多个图像(纹理)，用于切换显示状态。例如眼部插槽，可以同时绑定 睁眼、闭眼、瞪眼等图像，根据具体情况去切换显示
-                     */
                 }
             }
             trace("\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
             trace("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<");
-
         }
-
-
-    }
-
-    // }
-}
+    };
+    return DragonBonesDataTree;
+}());
+egret.registerClass(DragonBonesDataTree,'DragonBonesDataTree');

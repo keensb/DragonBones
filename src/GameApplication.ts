@@ -101,6 +101,20 @@ class GameApplication extends egret.DisplayObjectContainer
 
         //关于动态控制
         this.dragonbonesCopyAnimations();//拷贝骨骼动画
+        
+        egret.startTick(
+            function(frameTime: number)
+            {
+                //目前web最高帧频是 60 fps，每帧的驻留时间相当于 1/60 秒;
+                dragonBones.WorldClock.clock.advanceTime(1 / 60); //默认值为-1，自动计算播放速度(最短时间间隔 秒 也就是1/60)。
+
+                // (未证实的结论：实际循环时间 ≈ ((1/60) * 默认循环耗时) / (advanceTime参数 * 时间缩放比例 * 动作速度比例)。参数和比例越大播放速度越快。
+                //如果要放慢一倍速度，可以 dragonBones.WorldClock.clock.advanceTime(1/60/2);
+                //但是建议直接更改时间缩放比例或动作速度比例更直观 armature.animation.timeScale = 0.5 或 anms.setTimeScale(0.5);
+                return false;
+            },
+            this
+        );
     }
 
     private dragonbonesArmature():void

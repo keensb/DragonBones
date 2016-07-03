@@ -75,12 +75,20 @@ var GameApplication = (function (_super) {
      */
     p.createGameScene = function () {
         //读取骨骼动画数据文件里的关键信息，以树形结构输出控制台中
-        DragonBonesInfoTree.read("resource/assets/bones/robot/Robot.json", false);
+        DragonBonesDataTree.read("resource/assets/bones/robot2/skeleton.json", true);
         //关于创建
-        this.dragonbonesArmature(); //一般模式，多用于玩家角色
+        //this.dragonbonesArmature();//一般模式，多用于玩家角色
         //this.dragonbonesFastArmature();//极速模式+数据缓存,不支持多个动画同时播放（动画融合），并且不支持大多动态控制，多用于非玩家角色
         //关于动态控制
-        //this.dragonbonesCopyAnimations();//拷贝骨骼动画
+        this.dragonbonesCopyAnimations(); //拷贝骨骼动画
+        egret.startTick(function (frameTime) {
+            //目前web最高帧频是 60 fps，每帧的驻留时间相当于 1/60 秒;
+            dragonBones.WorldClock.clock.advanceTime(1 / 60); //默认值为-1，自动计算播放速度(最短时间间隔 秒 也就是1/60)。
+            // (未证实的结论：实际循环时间 ≈ ((1/60) * 默认循环耗时) / (advanceTime参数 * 时间缩放比例 * 动作速度比例)。参数和比例越大播放速度越快。
+            //如果要放慢一倍速度，可以 dragonBones.WorldClock.clock.advanceTime(1/60/2);
+            //但是建议直接更改时间缩放比例或动作速度比例更直观 armature.animation.timeScale = 0.5 或 anms.setTimeScale(0.5);
+            return false;
+        }, this);
     };
     p.dragonbonesArmature = function () {
         new modules.DragonBonesArmature(this);
@@ -92,5 +100,5 @@ var GameApplication = (function (_super) {
         new modules.DragonBonesCopyAnimations(this);
     };
     return GameApplication;
-})(egret.DisplayObjectContainer);
+}(egret.DisplayObjectContainer));
 egret.registerClass(GameApplication,'GameApplication');
